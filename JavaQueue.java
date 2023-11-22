@@ -5,7 +5,7 @@
  */
 /**
  *
- * @author 33-1
+ * @author farkhan8
  */
 
 import java.util.Scanner; 
