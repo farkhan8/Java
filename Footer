@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer</title>
+    <style>
+        /* CSS untuk Footer */
+        footer {
+            background-color: #2a2c39;
+            color: #ffffff;
+            font-size: 14px;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* CSS untuk footer menu */
+        .footer-menu {
+            list-style-type: none;
+            margin: 20px 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .footer-menu li {
+            margin: 0 10px;
+        }
+
+        .footer-menu li a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .footer-menu li a:hover {
+            text-decoration: underline;
+        }
+
+        /* CSS untuk newsletter */
+        .newsletter {
+            margin: 20px 0;
+        }
+
+        .newsletter input[type="email"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .newsletter button {
+            width: 100%;
+            padding: 8px;
+            background-color: #3c4055;
+            color: #ffffff;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .newsletter button:hover {
+            background-color: #5c6175;
+        }
+    </style>
+</head>
+<body>
+    <footer>
+        <p>&copy; 2022 Website Kami. Hak Cipta Terpelihara.</p>
+        <ul class="footer-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="newsletter">
+            <form action="#">
+                <input type="email" name="email" placeholder="Email">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
